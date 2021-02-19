@@ -139,12 +139,13 @@ html {
     width: 100px;
     height: 100px;
     border-radius: 75%;
-    filter: blur(0.75px);
-
-    /* width: 150px;
-    height: 150px;
-    border-radius: 50%; */
+    filter: blur(0.79px);
     text-align: center;
+}
+
+#pathfindImg {
+    width: 80%;
+    overflow: hidden;
 }
 
 .menu .author-content {

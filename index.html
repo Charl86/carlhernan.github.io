@@ -21,6 +21,7 @@ https://templatemo.com/tm-531-reflux
   <link rel="stylesheet" href="assets/css/templatemo-style.css" />
   <link rel="stylesheet" href="assets/css/owl.css" />
   <link rel="stylesheet" href="assets/css/lightbox.css" />
+  <link rel="stylesheet" href="assets/css/mycss.css">
 </head>
 
 <body>
@@ -50,7 +51,7 @@ https://templatemo.com/tm-531-reflux
           <div class="social-network">
             <ul class="social-icons">
               <li>
-                <a href="https://fb.com/templatemo"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
               </li>
               <li>
                 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -81,16 +82,18 @@ https://templatemo.com/tm-531-reflux
           <div class="row">
             <div class="col-md-6">
               <div class="left-image">
-                <img src="assets/images/code-bg_edited.png" alt="" />
+                <figure class="mycaption">
+                  <img src="assets/images/code-bg_edited.png" alt="Programming the sequence 'forest fire'">
+                  <figcaption>A program that generates and graphs the sequence “<a href="https://oeis.org/search?q=forest+fire&language=english&go=Search" target="_blank">forest fire</a>”</figcaption>
+                </figure>
               </div>
             </div>
             <div class="col-md-6">
               <div class="right-text">
                 <!-- Here is where I would have put a great sub title, IF I HAD ONE -->
                 <!-- <h4></h4> -->
-                <p>
-                  I have been involved in a couple of programming side projects tackling topics such as maze generation algorithms, pathfinding algorithms and sequence generation programs. Programming languages and tools that I have used to work on these projects include but are not limited to Python, C / C++, R and JavaScript, together with HTML, CSS, Flask, Matplotlib and Bash.
-                </p>
+                <p>I have been involved in many programming side projects tackling topics such as maze generation algorithms, pathfinding algorithms and sequence generation programs. Programming languages and tools that I have used to work on these projects include but are not limited to Python, C / C++, R and JavaScript, together with HTML, CSS, Flask, Matplotlib and Bash.</p>
+                <p>Initially I was foreign languages major, studying languages such as French and German. Learning about languages actually gave me a decent ability to absorb and retain information about programming languages with ease. After getting increasingly interested about the computer science and programming, I decided to focus on this newfound passion and switch majors.</p>
                 <!-- <div class="white-button">
                   <a href="#" title="There actually isn't more just yet">Read More</a>
                 </div> -->
@@ -105,7 +108,10 @@ https://templatemo.com/tm-531-reflux
                 <!-- Another heading -->
                 <!-- <h4></h4> -->
                 <p>
-                  I enjoy subjects such as Programming, Analysis, Algebra, Computer Architecture, Data Structures and Algorithms, Probability and Statistics, Number Theory, Web development, among many more. Initially  I was foreign languages majors, and learning about languages, literature, cultures, philosophy and music are among the rest of my interests.
+                  I enjoy subjects such as Programming, Analysis, Algebra, Computer Architecture, Data Structures and Algorithms, Probability and Statistics, Number Theory, Web development, among many more. Initially I was foreign languages major, and learning about languages, such as French and German, or literature, cultures, philosophy and music are among the rest of my interests.
+                </p>
+                <p>
+                  One of my weaknesses is struggling to communicate with others, due to shyness. However, I want to improve in that area so that I can collaborate with colleagues and increase my confidence in the workplace.
                 </p>
                 <!-- <div class="white-button">
                   <a href="#">Read More</a>
@@ -113,9 +119,11 @@ https://templatemo.com/tm-531-reflux
               </div>
             </div>
             <div class="col-md-6">
-              <div class="right-image">
-                <!-- TODO: Convert inline css to external -->
-                <img src="assets/images/Path_Found.png" style="width: 475px; height: 350px;">
+              <div class="right-image" id="pathfindImg">
+                <figure class="mycaption">
+                  <img src="assets/images/Path_Found.png">
+                  <figcaption>Visual representation of the <a href="https://en.wikipedia.org/wiki/A*_search_algorithm" target="_blank">A*</a> algorithm finding the shortest path between two nodes, programmed in JS</figcaption>
+                </figure>
               </div>
             </div>
           </div>
