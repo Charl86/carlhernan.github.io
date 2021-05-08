@@ -137,9 +137,8 @@ html {
 
 .menu .image img {
     width: 100px;
-    height: 100px;
+    height: 150px;
     border-radius: 75%;
-    filter: blur(0.79px);
     text-align: center;
 }
 
